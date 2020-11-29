@@ -1,0 +1,142 @@
+.entopia {
+  width: 350px;
+  height: 250px;
+}
+
+.scenery {
+  width: 350px;
+  height: 250px;
+}
+
+.blackbg-text {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-size: 32px;
+  letter-spacing: 10px;
+}
+
+.section-divider-1 {
+  background-image: url(images/restoraut.jpg);
+  height: 450px;
+  background-size: cover;
+  background-position: 0% 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-divider-2 {
+  background-image: url(images/0f.jpg);
+  height: 350px;
+  background-size: cover;
+  background-position: 0% 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-divider-3 {
+  background-image: url(images/the.jpg);
+  height: 350px;
+  background-size: cover;
+  background-position: 0% 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body {
+  margin: 0%;
+}
+
+.content {
+  margin: 0 20%;
+}
+
+
+
+.footer {
+  background-color: darkgray;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+.button{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.description {
+  flex-basis: 40%;
+  padding-left: 3%;
+
+}
+
+.p-pic {
+  flex-basis: 57%;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.my-list {
+  flex-basis: 50%;
+  margin-top: 10px;
+}
+
+.beside-list {
+  flex-basis: 50%;
+  margin-top: 10px;
+}
+
+.colum {
+  flex-basis: 33%;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+@media screen and (max-width:800px){
+  
+  .description {
+    flex-basis: 100%;
+  }
+  
+  .p-pic {
+    flex-basis: 100%;
+  }
+  
+  .my-list {
+    flex-basis: 100%;
+  }
+  
+  .beside-list {
+    flex-basis: 100%;
+  }
+  
+  .colum {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and(max-width:600px){
+  .colum {
+    flex-basis: 100%;
+  }
+}
